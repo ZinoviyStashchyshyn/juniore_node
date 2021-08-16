@@ -1,1 +1,0 @@
-[{"login":"ZinoviyStashchyshyn","password":"1"},{"login":"hai.kateryna@gmail.com","password":"w"},{"login":"jtujkyukyu","password":"ll"},{"login":"1","password":"dcfcf"},{"login":"zenyk@ukr.net","password":"2"},{"login":"345","password":"4"},{"login":"ira999","password":"79797"}]
