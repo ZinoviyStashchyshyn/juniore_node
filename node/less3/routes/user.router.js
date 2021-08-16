@@ -12,3 +12,5 @@ router.delete('/:userId', userControler.deleteUserById);
 router.get('/:userId', userMiddleware.checkIsUserPresent, userControler.getUserByID);
 
 module.exports = router;
+
+console.log('route');
