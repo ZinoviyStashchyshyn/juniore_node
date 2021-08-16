@@ -204,51 +204,50 @@ const path = require("path");
 //     }
 // };
 
+// fs.readdir(path.join(__dirname, "homework", "18.00"), (err, files) => {
+//     if (err) {
+//         console.log(err)
+//     } else {
+//         for (const file of files) {
+//             fs.readFile(path.join(__dirname, "homework", "18.00", `${file}`), (err1, data) => {
+//                 if (err) {
+//                     console.log(err)
+//                 } else {
+//                     let objPeopel = JSON.parse(data.toString())
+//                     if (objPeopel.sex === "female") {
+//                         fs.rename(path.join(__dirname, "homework", "18.00", `${file}`), path.join(__dirname, "homework", "Girls", `${file}`), err2 => {
+//                             console.log(err2);
+//                         })
+//                     }
+//                 }
+//             })
+//         }
+//     }
+// });
+//
+//
+// fs.readdir(path.join(__dirname, "homework", "20.00"), (err, files) => {
+//     if (err) {
+//         console.log(err)
+//     } else {
+//         for (const file of files) {
+//             fs.readFile(path.join(__dirname, "homework", "20.00", `${file}`), (err1, data) => {
+//                 if (err) {
+//                     console.log(err)
+//                 } else {
+//                     let objPeopel = JSON.parse(data.toString())
+//                     if (objPeopel.sex === "male") {
+//                         fs.rename(path.join(__dirname, "homework", "20.00", `${file}`), path.join(__dirname, "homework", "Boys", `${file}`), err2 => {
+//                             console.log(err2);
+//                         })
+//                     }
+//                 }
+//             })
+//         }
+//     }
+// });
 
-fs.readdir(path.join(__dirname, "homework", "18.00"), (err, files) => {
-    if (err) {
-        console.log(err)
-    } else {
-        for (const file of files) {
-            fs.readFile(path.join(__dirname, "homework", "18.00", `${file}`), (err1, data) => {
-                if (err) {
-                    console.log(err)
-                } else {
-                    let objPeopel = JSON.parse(data.toString())
-                    if (objPeopel.sex === "female") {
-                        fs.rename(path.join(__dirname, "homework", "18.00", `${file}`), path.join(__dirname, "homework", "Girls", `${file}`), err2 => {
-                            console.log(err2);
-                        })
-                    }
-                }
-            })
-        }
-    }
-});
 
-
-fs.readdir(path.join(__dirname, "homework", "20.00"), (err, files) => {
-    if (err) {
-        console.log(err)
-    } else {
-        for (const file of files) {
-            fs.readFile(path.join(__dirname, "homework", "20.00", `${file}`), (err1, data) => {
-                if (err) {
-                    console.log(err)
-                } else {
-                    let objPeopel = JSON.parse(data.toString())
-                    if (objPeopel.sex === "male") {
-                        fs.rename(path.join(__dirname, "homework", "20.00", `${file}`), path.join(__dirname, "homework", "Boys", `${file}`), err2 => {
-                            console.log(err2);
-                        })
-                    }
-                }
-            })
-        }
-    }
-});
-
-//FFFF
 
 
 
