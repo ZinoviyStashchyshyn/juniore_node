@@ -13,4 +13,4 @@ router.get('/:userId', userMiddleware.checkIsUserPresent, userControler.getUserB
 
 module.exports = router;
 
-console.log('route');
+console.log('sum  new commit');
